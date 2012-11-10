@@ -3,6 +3,10 @@
 It's a simple in-memory cache that expires the least recently used item
 in the cache when the count of items in the cache reaches a fixed limit. 
 
+## Installation
+
+    $ gem install lru_cache
+
 ## Usage
 
     require "lru_cache"
